@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ingress"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- 位置权限 -->
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+14-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:8:5-89
+14-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:8:22-86
+15
+16    <!-- 网络权限 -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:11:5-67
+17-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:12:5-79
+18-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:12:22-76
+19
+20    <!-- 存储权限（可选） -->
+21    <uses-permission
+21-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:15:5-107
+22        android:name="android.permission.READ_EXTERNAL_STORAGE"
+22-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:15:22-77
+23        android:maxSdkVersion="32" />
+23-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:15:78-104
+24    <uses-permission
+24-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:16:5-108
+25        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+25-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:16:22-78
+26        android:maxSdkVersion="32" />
+26-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:16:79-105
+27
+28    <!-- 精确位置权限（Android 10+） -->
+29    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+29-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:19:5-85
+29-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:19:22-82
+30
+31    <permission
+31-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\72a3139dec7d59048ded80ec505ff230\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+32        android:name="com.example.ingress.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\72a3139dec7d59048ded80ec505ff230\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\72a3139dec7d59048ded80ec505ff230\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.example.ingress.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\72a3139dec7d59048ded80ec505ff230\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\72a3139dec7d59048ded80ec505ff230\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:21:5-54:19
+38        android:allowBackup="true"
+38-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:23:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\72a3139dec7d59048ded80ec505ff230\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+40        android:dataExtractionRules="@xml/data_extraction_rules"
+40-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:24:9-65
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:fullBackupContent="@xml/backup_rules"
+43-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:25:9-54
+44        android:hardwareAccelerated="true"
+44-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:22:9-43
+45        android:icon="@mipmap/ic_launcher"
+45-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:26:9-43
+46        android:label="@string/app_name"
+46-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:27:9-41
+47        android:networkSecurityConfig="@xml/network_security_config"
+47-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:31:9-69
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:28:9-54
+49        android:supportsRtl="true"
+49-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:29:9-35
+50        android:testOnly="true"
+51        android:theme="@style/Theme.INgress" >
+51-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:30:9-45
+52        <activity
+52-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:32:9-43:20
+53            android:name="com.example.ingress.MainActivity"
+53-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:33:13-41
+54            android:exported="true"
+54-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:34:13-36
+55            android:label="@string/app_name"
+55-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:35:13-45
+56            android:theme="@style/Theme.INgress"
+56-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:36:13-49
+57            android:windowSoftInputMode="adjustResize" >
+57-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:37:13-55
+58            <intent-filter>
+58-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:38:13-42:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:39:17-69
+59-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:39:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:41:17-77
+61-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:41:27-74
+62            </intent-filter>
+63        </activity>
+64
+65        <!-- 位置提供者 -->
+66        <meta-data
+66-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:46:9-48:49
+67            android:name="com.google.android.geo.API_KEY"
+67-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:47:13-58
+68            android:value="YOUR_MAPS_API_KEY" />
+68-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:48:13-46
+69
+70        <!-- 高德地图SDK配置 -->
+71        <meta-data
+71-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:51:9-53:64
+72            android:name="com.amap.api.v2.apikey"
+72-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:52:13-50
+73            android:value="058257c35826ea6c88485b4802038264" />
+73-->D:\Android\StudioProjects\INgress\app\src\main\AndroidManifest.xml:53:13-61
+74
+75        <activity
+75-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\ASUS\.gradle\caches\8.13\transforms\0d8f5fb1fe3ac465245aa0e1e7046be5\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+76            android:name="androidx.compose.ui.tooling.PreviewActivity"
+76-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\ASUS\.gradle\caches\8.13\transforms\0d8f5fb1fe3ac465245aa0e1e7046be5\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+77            android:exported="true" />
+77-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\ASUS\.gradle\caches\8.13\transforms\0d8f5fb1fe3ac465245aa0e1e7046be5\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\e4a74928d30d71f8d442886539a626e1\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\e4a74928d30d71f8d442886539a626e1\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.ingress.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\e4a74928d30d71f8d442886539a626e1\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\e4a74928d30d71f8d442886539a626e1\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\e4a74928d30d71f8d442886539a626e1\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\e4a74928d30d71f8d442886539a626e1\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\8.13\transforms\e4a74928d30d71f8d442886539a626e1\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ASUS\.gradle\caches\8.13\transforms\27be0a9e0ecb40e209ede1228acbe2e2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ASUS\.gradle\caches\8.13\transforms\27be0a9e0ecb40e209ede1228acbe2e2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ASUS\.gradle\caches\8.13\transforms\27be0a9e0ecb40e209ede1228acbe2e2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <activity
+94-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\ASUS\.gradle\caches\8.13\transforms\7ad51773d19e8cb3b39b567ed8b61c15\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
+95            android:name="androidx.activity.ComponentActivity"
+95-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\ASUS\.gradle\caches\8.13\transforms\7ad51773d19e8cb3b39b567ed8b61c15\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
+96            android:exported="true" />
+96-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\ASUS\.gradle\caches\8.13\transforms\7ad51773d19e8cb3b39b567ed8b61c15\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
+97
+98        <receiver
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+99            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+100            android:directBootAware="false"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+101            android:enabled="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+102            android:exported="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+103            android:permission="android.permission.DUMP" >
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+105                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+108                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+111                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+114                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\8.13\transforms\709eec291cbf090e4ef3c1fed9aa5de7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+115            </intent-filter>
+116        </receiver>
+117    </application>
+118
+119</manifest>
